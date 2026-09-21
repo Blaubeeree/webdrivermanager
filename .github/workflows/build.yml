@@ -67,6 +67,7 @@ jobs:
         "/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge" \
           --version
         
+        rm -rf "/Applications/Google Chrome for Testing.app"
         brew install --cask google-chrome
         "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
           --version
